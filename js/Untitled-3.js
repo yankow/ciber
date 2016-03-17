@@ -20,7 +20,7 @@ function slideit (){
 	step++
 	else
 	step=1
-	setTimeout("slideit()",4500)
+	timerID = setTimeout("slideit()",4500)
 	
 
 }
